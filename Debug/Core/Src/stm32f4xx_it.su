@@ -7,4 +7,4 @@
 ../Core/Src/stm32f4xx_it.c:168:6:TIM2_IRQHandler	8	static
 ../Core/Src/stm32f4xx_it.c:182:6:TIM3_IRQHandler	8	static
 ../Core/Src/stm32f4xx_it.c:196:6:TIM6_DAC_IRQHandler	8	static
-../Core/Src/stm32f4xx_it.c:210:6:OTG_FS_IRQHandler	8	static
+../Core/Src/stm32f4xx_it.c:210:6:OTG_HS_IRQHandler	8	static

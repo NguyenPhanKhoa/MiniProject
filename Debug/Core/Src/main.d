@@ -62,8 +62,7 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/BSP/Components/l3gd20/l3gd20.h \
  ../Drivers/BSP/Components/l3gd20/../Common/gyro.h \
  ../Drivers/BSP/stm32f429i_discovery_lcd.h \
- ../Drivers/BSP/stm32f429i_discovery_sdram.h \
- ../Utilities/Fonts/../Fonts/fonts.h \
+ ../Drivers/BSP/stm32f429i_discovery_sdram.h ../Utilities/Fonts/fonts.h \
  ../Drivers/BSP/Components/ili9341/ili9341.h \
  ../Drivers/BSP/Components/ili9341/../Common/lcd.h
 ../Core/Inc/main.h:
@@ -132,6 +131,6 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/BSP/Components/l3gd20/../Common/gyro.h:
 ../Drivers/BSP/stm32f429i_discovery_lcd.h:
 ../Drivers/BSP/stm32f429i_discovery_sdram.h:
-../Utilities/Fonts/../Fonts/fonts.h:
+../Utilities/Fonts/fonts.h:
 ../Drivers/BSP/Components/ili9341/ili9341.h:
 ../Drivers/BSP/Components/ili9341/../Common/lcd.h:

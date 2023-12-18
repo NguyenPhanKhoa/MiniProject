@@ -40,14 +40,16 @@ Drivers/BSP/stm32f429i_discovery_lcd.o: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
- ../Drivers/BSP/stm32f429i_discovery_sdram.h \
- ../Utilities/Fonts/../Fonts/fonts.h \
+ ../Drivers/BSP/stm32f429i_discovery_sdram.h ../Utilities/Fonts/fonts.h \
  ../Drivers/BSP/Components/ili9341/ili9341.h \
  ../Drivers/BSP/Components/ili9341/../Common/lcd.h \
- ../Utilities/Fonts/../Fonts/font24.c ../Utilities/Fonts/../Fonts/fonts.h \
- ../Utilities/Fonts/../Fonts/font20.c \
- ../Utilities/Fonts/../Fonts/font16.c \
- ../Utilities/Fonts/../Fonts/font12.c ../Utilities/Fonts/../Fonts/font8.c
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/../../../Utilities/Fonts/fonts.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/../../../Utilities/Fonts/font24.c \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/../../../Utilities/Fonts/fonts.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/../../../Utilities/Fonts/font20.c \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/../../../Utilities/Fonts/font16.c \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/../../../Utilities/Fonts/font12.c \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/../../../Utilities/Fonts/font8.c
 ../Drivers/BSP/stm32f429i_discovery_lcd.h:
 ../Drivers/BSP/stm32f429i_discovery.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
@@ -89,12 +91,13 @@ Drivers/BSP/stm32f429i_discovery_lcd.o: \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h:
 ../Drivers/BSP/stm32f429i_discovery_sdram.h:
-../Utilities/Fonts/../Fonts/fonts.h:
+../Utilities/Fonts/fonts.h:
 ../Drivers/BSP/Components/ili9341/ili9341.h:
 ../Drivers/BSP/Components/ili9341/../Common/lcd.h:
-../Utilities/Fonts/../Fonts/font24.c:
-../Utilities/Fonts/../Fonts/fonts.h:
-../Utilities/Fonts/../Fonts/font20.c:
-../Utilities/Fonts/../Fonts/font16.c:
-../Utilities/Fonts/../Fonts/font12.c:
-../Utilities/Fonts/../Fonts/font8.c:
+../Drivers/STM32F4xx_HAL_Driver/Inc/../../../Utilities/Fonts/fonts.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/../../../Utilities/Fonts/font24.c:
+../Drivers/STM32F4xx_HAL_Driver/Inc/../../../Utilities/Fonts/fonts.h:
+../Drivers/STM32F4xx_HAL_Driver/Inc/../../../Utilities/Fonts/font20.c:
+../Drivers/STM32F4xx_HAL_Driver/Inc/../../../Utilities/Fonts/font16.c:
+../Drivers/STM32F4xx_HAL_Driver/Inc/../../../Utilities/Fonts/font12.c:
+../Drivers/STM32F4xx_HAL_Driver/Inc/../../../Utilities/Fonts/font8.c:
